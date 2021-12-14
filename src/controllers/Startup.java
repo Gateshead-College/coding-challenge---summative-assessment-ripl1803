@@ -20,5 +20,7 @@ public class Startup {
         users.add(new User("Donny", "Donaldson", "donald1709", "pass789"));
         users.add(new User("Luke", "Young", "yung2412", "123pass"));
         users.add(new User("Linda", "Cummings", "cmig0950", "456pass"));
+        StoreWelcome sw = new StoreWelcome();
+        sw.displayStoreOpen();
     }
 }
